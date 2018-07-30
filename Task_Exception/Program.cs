@@ -22,7 +22,7 @@ namespace Task_Exception
             {
                 list.Add(new Worker("Stanislav", "Verevkin", 12, "Masurova, 25", "BI", "trainee", "+375298745214", 50));
             }
-            catch (Exception ex)
+            catch (CustomException ex)
             {
                 Console.WriteLine(ex.Message);
             }

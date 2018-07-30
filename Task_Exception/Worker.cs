@@ -34,7 +34,7 @@ namespace Task_Exception
             {
                 if (value <= 14)
                 {
-                    throw new Exception("Age must be more than 13");
+                    throw new CustomException("Age must be more than 13");
                 }
                 age = value;
             }
